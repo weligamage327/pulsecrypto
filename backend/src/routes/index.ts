@@ -1,0 +1,1 @@
+export { default as pairsRouter } from './pairs.route';
