@@ -4,14 +4,17 @@ node_modules/
 # Build outputs
 dist/
 build/
+web-build/
 
 # Environment
 .env
 .env.local
+.env*.local
 
 # OS files
 .DS_Store
 Thumbs.db
+*.pem
 
 # IDE
 .vscode/
@@ -19,7 +22,13 @@ Thumbs.db
 
 # Logs
 *.log
-npm-debug.log*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# TypeScript
+*.tsbuildinfo
+expo-env.d.ts
 
 # Expo
 .expo/
@@ -29,16 +38,20 @@ npm-debug.log*
 *.key
 *.mobileprovision
 *.orig.*
-web-build/
 
-# iOS
+# Metro
+.metro-health-check*
+
+# Native (generated folders)
+/ios
+/android
 ios/Pods/
 ios/build/
-
-# Android
 android/app/build/
 android/build/
 android/.gradle/
+.kotlin/
 
-# TypeScript
-*.tsbuildinfo
+# Generated native folders (in subdirectories)
+**/ios/
+**/android/
