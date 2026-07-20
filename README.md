@@ -211,7 +211,7 @@ Each UI component has its styles co-located (e.g., `PairRow.tsx` + `PairRow.styl
 | Debounce on search               | 300ms delay; Smoother UX with live filtering                |
 
 ## How AI-Assisted Development Was Used
-AI tools (Cursor, Claude) were used throughout development for:
+AI tools (Antigravity, DeepSeek, Gemini) were used throughout development for:
 - Architecture planning and component tree design
 - Initial code generation for services, hooks, and components
 - Debugging WebSocket connection and state management issues
